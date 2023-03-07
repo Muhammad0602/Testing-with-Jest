@@ -1,0 +1,16 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "string-length-test.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

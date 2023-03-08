@@ -5,6 +5,6 @@ test('properly capitalize the first letter', () => {
     const output = 'Hello';
     const result = capitalize(string);
     expect(capitalize(result)).toBe(output);
-    
+
     expect(capitalize('name')).toBe('Name');
 })

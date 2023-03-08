@@ -1,6 +1,10 @@
 const capitalize = require('./capitalize');
 
 test('properly capitalize the first letter', () => {
-    expect(capitalize('hello')).toBe('Hello');
+    const string = 'hello';
+    const output = 'Hello';
+    const result = capitalize(string);
+    expect(capitalize(result)).toBe(output);
+    
     expect(capitalize('name')).toBe('Name');
 })
